@@ -62,7 +62,7 @@ function updateDisplay() {
   const attemptsContainer = document.getElementById("attemptsContainer");
   attemptsContainer.textContent = `ทายแล้ว: ${attemptCount} ครั้ง`;
 }
-// ฟังก์ชันเริ่มเกมใหม่
+// ฟังก์ชันเริ่มเกมใหม่ (add reset game button functionality)
 function resetGame() {
   initializeGame();
   document.getElementById("resultContainer").innerHTML = "";
